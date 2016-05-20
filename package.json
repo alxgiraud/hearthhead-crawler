@@ -1,0 +1,16 @@
+{
+  "name": "hearthhead-crawler",
+  "version": "1.0.0",
+  "description": "Gather data from hearthhead.com",
+  "main": "index.js",
+  "author": "A. Giraud",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "lodash": "^4.12.0",
+    "prompt": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxgiraud/hearthhead-crawler.git"
+  }
+}
