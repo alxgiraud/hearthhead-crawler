@@ -116,7 +116,6 @@ var methods = {
 
                         if (statusCode !== 200) {
                             console.error('Error function: getMinion (' + i + ') (status: ' + statusCode + ')');
-                            methods.prompt();
                         } else {
                             scraper.getSounds(result, function (soundsObject) {
                                 data[i].values.push({
