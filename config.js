@@ -3,7 +3,7 @@ var config = {};
 var hasProxy = false; //Set to true if you're behind a proxy
 
 config.host = (hasProxy) ? 'proxy.foobar.com' : ''; // update if needed with your proxy address
-config.port = 8080;
+config.port = 80;
 config.path = '';
 config.method = 'GET';
 
