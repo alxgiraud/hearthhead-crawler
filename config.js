@@ -1,6 +1,6 @@
 var config = {};
 
-var hasProxy = true; //Set to true if you're behind a proxy
+var hasProxy = false; //Set to true if you're behind a proxy
 
 config.host = (hasProxy) ? 'proxy.foobar.com' : ''; // update if needed with your proxy address
 config.port = 8080;
